@@ -36,7 +36,7 @@ app.get('/api/posts', async (req, res) => {
 });
 
 app.get('/api/comments', async (req, res) => {
-  const url = 'https://jsonplaceholder.typicode.com/posts';
+  const url = 'https://jsonplaceholder.typicode.com/comments';
 
   const options = {
     uri: url,
